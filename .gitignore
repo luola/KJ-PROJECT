@@ -1,6 +1,5 @@
-js/
+/*
 !/kj.html
 !/.gitignore
-!login/login.html
-login/css
-login/Flat-UI-master
+!/login/login.html
+!login/css
