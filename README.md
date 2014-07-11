@@ -21,6 +21,10 @@ UI重写取消。
 
 解决了由于手势多次识别造成的翻页跳转异常。
 
-加入了 1、自动打开URL && 自动图片URL框焦点
-       2、读取pervious页面的锚和after页面的锚的函数get_anchor(whitch:{0代表后退,1代表前进})
-       3、is_turning标记加入。｛1：正在翻页，0：未在翻页｝
+加入了 ：
+
+1、自动打开URL && 自动图片URL框焦点
+
+2、读取pervious页面的锚和after页面的锚的函数get_anchor(whitch:{0代表后退,1代表前进})
+
+3、is_turning标记加入。｛1：正在翻页，0：未在翻页｝
