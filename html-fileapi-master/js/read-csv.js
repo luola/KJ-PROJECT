@@ -29,7 +29,7 @@ function processData(csv) {
         lines.push(allTextLines.shift().split(','));
     }
 	console.log(lines);
-	drawOutput(lines);
+	get_result(lines);
 }
 
 function errorHandler(evt) {
@@ -38,16 +38,22 @@ function errorHandler(evt) {
 	}
 }
 
-function drawOutput(lines){
+function get_result(lines){
 	//清除先前的数据
-	document.getElementById("output").innerHTML = "";
-	var table = document.createElement("table");
+	// document.getElementById("output").innerHTML = "";
+	// var table = document.createElement("table");
 	for (var i = 0; i < lines.length; i++) {
-		var row = table.insertRow(-1);
-		for (var j = 0; j < lines[i].length; j++) {
-			var firstNameCell = row.insertCell(-1);
-			firstNameCell.appendChild(document.createTextNode(lines[i][j]));
-		}
+		// var row = table.insertRow(-1);
+		console.log(lines[i])
+		// for (var j = 0; j < lines[i].length; j++) {
+			// var firstNameCell = row.insertCell(-1);
+			// firstNameCell.appendChild(document.createTextNode(lines[i][j]));
+
+		// }
 	}
-	document.getElementById("output").appendChild(table);
+	// document.getElementById("output").appendChild(table);
+
 }
+
+
+
